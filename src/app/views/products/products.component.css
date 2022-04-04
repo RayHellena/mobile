@@ -1,3 +1,29 @@
 .teste {
     color: black;
 }
+
+.body {
+    background-color: white;
+    color: black;
+}
+
+.paonome {
+    color: black;
+}
+
+.baguete {
+    width: black;
+}
+
+
+    .coluna{
+        float: left;
+        width: 33.33%;
+        color: black;
+    }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
